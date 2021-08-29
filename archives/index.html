@@ -266,7 +266,7 @@
         
           
         
-        Um..! 2 posts in total. Keep on posting.
+        Um..! 3 posts in total. Keep on posting.
       </span>
 
       
@@ -280,6 +280,43 @@
           <div class="collection-title">
             <h1 class="archive-year" id="archive-year-2021">2021</h1>
           </div>
+        
+        
+
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/2021/08/29/live2d/" itemprop="url">
+              
+                <span itemprop="name">live2d</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2021-08-29T19:06:14+08:00"
+              content="2021-08-29" >
+          08-29
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+      
+
+        
+        
+        
+
         
         
 
@@ -405,7 +442,7 @@
               
                 <a href="/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -413,6 +450,15 @@
 
             
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">tags</span>
+                
+              </div>
             
 
           </nav>
@@ -462,8 +508,24 @@
     </main>
 
     <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2021</span>
+		<link rel="stylesheet" href="live2d/css/live2d.css" />
+		<div id="landlord">
+			<div class="message" style="opacity:0"></div>
+			<canvas id="live2d" width="250" height="500" class="live2d"></canvas>
+			<div class="hide-button">隐藏</div>
+		</div>
+		<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			var message_Path = '/live2d/';//资源目录，如果目录不对请更改
+			var home_Path = "";//如果有类似图灵机器人的聊天接口请填写接口路径
+		</script>
+		<script type="text/javascript" src="live2d/js/live2d.js"></script>
+		<script type="text/javascript" src="live2d/js/message.js"></script>
+		<script type="text/javascript">
+			loadlive2d("live2d", "live2d/model/xiaomai/xiaomai.json")
+		</script>
+	  <div class="footer-inner">
+		<div class="copyright">&copy; <span itemprop="copyrightYear">2021</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
@@ -486,7 +548,7 @@
 
 
 
-        
+		
 
 
 
@@ -494,8 +556,8 @@
 
 
 
-        
-      </div>
+		
+	  </div>
     </footer>
 
     
@@ -674,5 +736,5 @@
 
   
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"right","width":300,"height":600},"mobile":{"show":false},"rect":"opacity:0.7","log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</body>
 </html>
